@@ -13,5 +13,8 @@ int main()
         }
         cout << s[i];
     }
+
+    transform(s.begin(),s.end(),s.begin(),::tolower);
+    cout<<s<<endl;
     return 0;
 }
